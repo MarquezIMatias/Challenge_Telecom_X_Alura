@@ -1,30 +1,22 @@
-# 📊 Challenge TelecomX
+# 📊 Challenge_Telecom_X
 
-## 📘 Misión del Proyecto
-Desarrollar modelos predictivos capaces de prever qué clientes tienen mayor probabilidad de cancelar sus servicios.
-
-La empresa quiere anticiparse al problema de la cancelación, y me corresponde construir un pipeline robusto para esta etapa inicial de modelado.
-
+## 📘 Descripción del Proyecto
+La empresa enfrenta una alta tasa de cancelaciones y necesita comprender los factores que llevan a la pérdida de clientes.
+Tu desafío será recopilar, procesar y analizar los datos, utilizando Python y sus principales bibliotecas para extraer información valiosa. A partir de tu análisis, el equipo de Data Science podrá avanzar en modelos predictivos y desarrollar estrategias para reducir la evasión.
 ---
 
 ## 🎯 Objetivos
 
--Preparar los datos para el modelado (tratamiento, codificación, normalización).
+### Objetivo General
+La empresa enfrenta una alta tasa de cancelaciones y necesita comprender los factores que llevan a la pérdida de clientes.
 
--Realizar análisis de correlación y selección de variables.
+El desafío será recopilar, procesar y analizar los datos, utilizando Python y sus principales bibliotecas para extraer información valiosa. A partir de tu análisis, el equipo de Data Science podrá avanzar en modelos predictivos y desarrollar estrategias para reducir la evasión
+### Objetivos Específicos
 
--Entrenar dos o más modelos de clasificación.
-
--Evaluar el rendimiento de los modelos con métricas.
-
--Interpretar los resultados, incluyendo la importancia de las variables.
-
--Crear una conclusión estratégica señalando los principales factores que influyen en la cancelación.
-
-- 💰 **Financiero:** Evitar futuras cancelaciones que perjudican a la empresa.
-- 🚚 **Logístico:** Crear una solución para evitar la evasión.
+- 💰 **Financiero:** Analizar las cancelaciones que perjudican a la empresa.
+- 🚚 **Logístico:** Calcular el porcentaje de evasión.
 - ⭐ **Cliente:** Evaluar al cliente y su evasión.
-- 📉 **Decisión:** Proponer soluciones practicas que favorezan a la Empresa
+- 📉 **Decisión:** Construir indicadores consolidados para apoyar la recomendación final.
   
 ---
 
@@ -58,7 +50,23 @@ Para replicar este análisis de manera auditable:
 
 ## 📊 Resultados Clave y Conclusiones
 
-La diferencia principal entre modelos (Tenure en RF vs. Fibra en Logística) nos confirma que el Churn es un fenómeno que se atribuye a múltiples causas, por lo que no puede ser observado como un fenómeno aislado: mientras que el tiempo de permanencia define la estructura de la lealtad, el tipo de servicio (Fibra) actúa como el detonante principal de la insatisfacción actual.
+Basado en un análisis integral, la TASA DE EVASION GENERAL: es del 26.6%, (es un porcentaje bastante crítico).
+
+Se concluye que para evitar esta evasión se podria hacer los siguiente:.
+
+-Ofrecer descuentos o beneficios atractivos para motivar a los clientes con contratos mensuales.
+
+-La empresa debe brindar mejor atención con el soporte técnico.
+
+-Se debe mejorar la percepción del servicio de fibra óptica a través de encuestas, mejoras técnicas o campañas de satisfacción.
+
+-Incentivar más el uso de los servicios de seguridad_online, backup_online y protección_dispositivo.
+
+-Promover más los métodos de pago automáticos.
+
+-Orientar las estrategias hacia la buena calidad del servicio.
+
+-Rebajar más la tarifa.
 
 ---
 
